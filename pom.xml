@@ -1287,9 +1287,9 @@
     Devs may note that normally (not in this case), many spring profiles can
     be defined at the same time: "active.profiles.spring" is overriden
     in web.xml. -->
-    <es.spring.profile></es.spring.profile>
-    <es.username></es.username>
-    <es.password></es.password>
+    <es.spring.profile/>
+    <es.username/>
+    <es.password/>
 
     <kb.version.md5>e44777c3fb7ccfa4300884ce72869180</kb.version.md5>
     <kb.port>5601</kb.port>
@@ -1320,7 +1320,7 @@
 
     <lucene.version>4.9.0</lucene.version>
 
-    <spring.version>4.2.4.RELEASE</spring.version>
+    <spring.version>4.3.29.RELEASE</spring.version>
     <spring.security.version>3.2.0.RELEASE</spring.security.version>
     <metrics.version>2.1.1</metrics.version>
     <maven.build.timestamp.format>yyyy-MM-dd'T'HH'\:'mm'\:'ssZ</maven.build.timestamp.format>
