@@ -1016,7 +1016,7 @@
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
         <artifactId>jackson-databind</artifactId>
-        <version>2.5.5</version>
+        <version>2.10.0.pr1</version>
       </dependency>
       <dependency>
         <groupId>com.fasterxml.jackson.core</groupId>
@@ -1287,9 +1287,9 @@
     Devs may note that normally (not in this case), many spring profiles can
     be defined at the same time: "active.profiles.spring" is overriden
     in web.xml. -->
-    <es.spring.profile></es.spring.profile>
-    <es.username></es.username>
-    <es.password></es.password>
+    <es.spring.profile/>
+    <es.username/>
+    <es.password/>
 
     <kb.version.md5>e44777c3fb7ccfa4300884ce72869180</kb.version.md5>
     <kb.port>5601</kb.port>
