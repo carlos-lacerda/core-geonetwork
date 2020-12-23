@@ -971,7 +971,7 @@
       <dependency>
         <groupId>org.hibernate</groupId>
         <artifactId>hibernate-ehcache</artifactId>
-        <version>4.3.6.Final</version>
+        <version>5.4.24.Final</version>
       </dependency>
       <dependency>
         <groupId>org.springframework.data</groupId>
@@ -1287,9 +1287,9 @@
     Devs may note that normally (not in this case), many spring profiles can
     be defined at the same time: "active.profiles.spring" is overriden
     in web.xml. -->
-    <es.spring.profile></es.spring.profile>
-    <es.username></es.username>
-    <es.password></es.password>
+    <es.spring.profile/>
+    <es.username/>
+    <es.password/>
 
     <kb.version.md5>e44777c3fb7ccfa4300884ce72869180</kb.version.md5>
     <kb.port>5601</kb.port>
